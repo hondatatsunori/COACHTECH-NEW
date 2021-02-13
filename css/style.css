@@ -155,7 +155,7 @@ input, select {
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 30px;
+  height: 65px;
   width: 50%;
   font-size: 14px;
   line-height: 1;
@@ -166,25 +166,30 @@ input, select {
 }
 
 .title-left {
-  width: 70%;
+  width: 80%;
   background-color: #fff;
 }
 
 .title-left p {
   padding: 10px 0;
+  color: #000;
+}
+
+.second-line {
+  align-items: center;
 }
 
 .title-right {
-  width: 30%;
+  width: 20%;
   background: #000;
   font-size: 16px;
   color: #fff;
 }
 
 .title-right p {
-  color: #fff;
+  text-align: center;
+  align-items: center;
 }
-
 
 
 
