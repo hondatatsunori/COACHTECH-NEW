@@ -323,7 +323,12 @@ button {
   position: relative;
 }
 
-
+.about-left {
+  position: absolute;
+  top: 30%;
+  left: 24%;
+  
+}
 
 .company {
   position: absolute;
