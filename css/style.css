@@ -320,32 +320,44 @@ button {
 #about {
   height: 600px;
   background: #fff;
+  color: #fff;
   position: relative;
 }
 
 .about-left {
-  position: absolute;
-  top: 30%;
-  left: 24%;
-  
-}
-
-.company {
   position: absolute;
   width: 48%;
   height: 35%;
   top: 15%;
   left: 0%;
   transform: translate(-50,-50);
+  background: url(../img/company.jpeg) no-repeat;
 }
 
-.recruit {
+.about-left h2,
+.about-right h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+} 
+
+.about-left p,
+.about-right p {
+  text-align: center;
+}
+
+
+
+
+
+.about-right {
   position: absolute;
   width: 48%;
   height: 35%;
   top: 15%;
   right: 0%;
   transform: translate(-50,-50);
+  background: url(../img/recruit.jpg) no-repeat;
 }
 
 .FAQ {
@@ -362,6 +374,19 @@ button {
 
 
 
+
+#contact {
+  height: 500px;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+
+
+
 .footer {
   height: 70px;
   background: #000;
@@ -370,6 +395,7 @@ button {
 .footer-wrap {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .footer-logo {
@@ -394,6 +420,7 @@ button {
 }
 
 .copyright {
+  display: flex;
   text-align: center;
   align-items: flex-end;
   font-size: 14px;
