@@ -336,9 +336,9 @@ button {
 
 .about-left h2,
 .about-right h2 {
-  display: flex;
   text-align: center;
-  justify-content: center;
+  padding: 80px 0 10px;
+  font-size: 30px;
 } 
 
 .about-left p,
@@ -358,6 +358,7 @@ button {
   right: 0%;
   transform: translate(-50,-50);
   background: url(../img/recruit.jpg) no-repeat;
+  background-size: cover;
 }
 
 .FAQ {
@@ -368,12 +369,17 @@ button {
   top: 65%;
   right: 10%;
   transform: translate(-50,-50);
+  display: flex;
 }
 
+.FAQ h2 {
+  font-size: 30px;
+  padding: 50px 30px;
+}
 
-
-
-
+.FAQ p {
+  padding: 55px 440px;
+}
 
 #contact {
   height: 500px;
@@ -381,11 +387,36 @@ button {
   background-size: cover;
   background-position: center;
   position: relative;
+  color: #fff;
+  text-align: center;
 }
 
+.contact-wrap h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 150px;
+}
 
+.line1 {
+  font-size: 14px;
+  padding: 10px 0;
+}
 
+.line2 {
+  font-size: 35px;
+  padding: 20px 0;
+}
 
+.line3 {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+#contact button {
+  color: #fff;
+  background: rgba(255,255,255,0.3);
+  margin: 50px 530px;
+}
 
 .footer {
   height: 70px;
@@ -403,6 +434,7 @@ button {
   font-weight: bold;
   margin-left: 35px;
   color: #fff;
+  padding: 10px 0 0;
 }
 
 .footer-wrap ul {
@@ -410,6 +442,7 @@ button {
 }
 
 .footer-wrap li {
+  padding: 10px 0 0;
   margin-right: 35px;
   font-size: 16px;
 }
